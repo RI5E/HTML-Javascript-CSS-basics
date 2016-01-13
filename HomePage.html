@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Twitter Project</title>
+    <h1>Discover stuff about twitter!! <-- this should eventually be more inspirational</h1>
+</head>
+
+<body>
+    <div class="searching">
+        <p>Search for a hash tag in the text field below...</p>
+        <input type="search" id="twitter_search" onsearch="search_twitter()" placeholder="#ready">
+    </div>
+
+    <div class = "result">
+        <p>results below..</p>
+        <p id = "should display search test here"></p>
+    </div>
+
+    <script>
+        function search_twitter() {
+            var searched_text = document.getElementById("twitter_search");
+            //trigger twitter search events here
+            document.getElementById("should display search text here").innerText = "The text that was searched: " + searched_text;
+        }
+    </script>
+
+</body>
+</html>
