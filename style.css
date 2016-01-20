@@ -1,0 +1,38 @@
+body {
+	font-family: "Raleway";
+	margin: 0px;
+}
+
+img.profile-picture {
+	width: 200px;
+	border-radius: 30%;
+	/*height: 200px;*/
+}
+
+.centered {
+	text-align: center;
+	background-image: url("berkeley.jpg");
+	background-size: cover;
+	color: white;
+}
+
+.centered a{
+	color: white;
+}
+
+.description{
+	margin: auto;
+	margin-top: 50px;
+	padding: 20px 50px;
+	width: 400px;
+	/*changes background color*/
+	background-color: red;
+	/*Changes text color*/
+	color: white;
+}
+
+ul{
+	text-align: center;
+	display: inline-block;
+}
+
