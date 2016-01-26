@@ -1,0 +1,61 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+
+#map {
+    position: absolute;
+    height: 85%;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+}
+
+/* TODO: improve this for different window sizes */
+#photo {
+    position: absolute;
+    right: 400px;
+    top: 100px;
+    cursor: pointer;
+    opacity: 1;
+    -webkit-transition: opacity 500ms ease;
+    -moz-transition: opacity 500ms ease;
+
+}
+
+#photo:hover {
+    opacity: 0.6;
+    -webkit-transition: opacity 500ms ease;
+    -moz-transition: opacity 500ms ease;
+}
+
+#info {
+    position: absolute;
+    width: 300px;
+    padding: 0px 15px 20px 15px;
+    right: 30px;
+    top: 100px;
+    border-left: 2px solid #BBB;
+    font-size: 14px;
+    font-family: Lato;
+}
+
+#info h1 {
+    font-size: 48px;
+    color: #BBB;
+    margin-top: -5px;
+    margin-bottom: 20px;
+    line-height: 100%;
+}
+
+.descriptor {
+    position: relative;
+    font-size: 40px;
+    color: #BBB;
+    cursor: pointer;
+}
+
+.descriptor_blur {
+    position: relative;
+    font-size: 40px;
+    color: transparent;
+    text-shadow: 0 0 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+}

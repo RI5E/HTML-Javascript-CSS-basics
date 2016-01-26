@@ -1,0 +1,53 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+
+body {
+    background: #F4F4F4;
+    margin: 0;
+    padding: 0;
+    font-family: Lato;
+}
+
+#sidebar {
+    position: absolute;
+    height: 85%;
+    top: 50%;
+    transform: translateY(-50%);
+    border-left: 3px solid #BBB;
+    margin-left: 20px;
+}
+
+#pointer {
+    display: inline-block;
+    width: 0; 
+	height: 0; 
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	border-left: 20px solid #BBB;
+}
+
+.hashtag {
+    font-size: 48px;
+    font-family: Lato;
+    color: #BBB;
+    cursor: default;
+    margin: 0px 20px 0px 20px;
+    -webkit-transition: font-size 500ms, margin 500ms ease;
+    -moz-transition: font-size 500ms, margin 500ms ease;
+}
+
+.hashtag:hover {
+    font-size: 54px;
+    color: #BBB;
+    margin-left: 30px;
+    -webkit-transition: font-size 500ms, margin 500ms ease;
+    -moz-transition: font-size 500ms, margin 500ms ease;
+}
+  
+.hashtag_clicked {
+    display: inline-block;
+    font-size: 72px;
+    font-family: Lato;
+    color: #FFF;
+    cursor: default;
+    margin: 0px 20px 0px 20px;
+}
