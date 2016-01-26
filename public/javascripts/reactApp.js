@@ -44,6 +44,7 @@ var Query = React.createClass({
         <p>
             {this.state.displayDate}
         </p>
+        <p> <a href="/results" title="eventually we can just load this automatically... or single page app??">Click</a> to see results!!! </p>
       </div>
     );
   }
